@@ -11,5 +11,7 @@ end
 pretty_print_nds(directors_database)
 
 def print_first_directors_movie_titles
-  movies_arr_index = directors_database[:]
+  #grab the array that stores first director's movies
+  movies_arr = directors_database[0][:movies]
+  #loop thru the first key of each element in the array
 end
